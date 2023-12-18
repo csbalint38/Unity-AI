@@ -81,6 +81,11 @@
 # Ignore compiled protobuf files.
 *Grpc.Tools*
 
+# Ignore large files
+*.dylib
+*.lib
+*.dll
+
 # Ignore PyPi build files.
 dist/
 build/
